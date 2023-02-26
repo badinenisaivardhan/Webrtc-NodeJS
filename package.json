@@ -1,0 +1,27 @@
+{
+  "name": "webrtc-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "nodemon ./src/server.js",
+    "server": "node ./src/server.js",
+    "connections": "parcel ./views/connection.html",
+    "videocall": "parcel ./views/videocall.html",
+    "chat": "parcel ./views/chat.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "rtc-socket-connector-client": "^0.1.7",
+    "rtc-socket-connector-server": "^0.1.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1"
+  }
+}
